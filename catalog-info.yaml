@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "graf-testi"
+  description: "Testing grafana"
+  annotations:
+    github.com/project-slug: efidemos/graf-testi
+    grafana/tag-selector: "my-grafana-tag"
+spec:
+  type: graf-repository
+  lifecycle: experimental
+  owner: "group:default/cncf"
